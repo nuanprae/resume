@@ -1,0 +1,9 @@
+.air-mail-sticker {
+  background-color: #5a799f;
+  border: solid #fff 2px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 1em;
+  text-align: center;
+}

@@ -1,11 +1,7 @@
 import './app.css';
 
+import EnvelopePage from '../pages/EnvelopePage/EnvelopePage';
+
 export default function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h2>Nuanprae's Resume Web App</h2>
-      </header>
-    </div>
-  );
+  return <EnvelopePage />;
 }
