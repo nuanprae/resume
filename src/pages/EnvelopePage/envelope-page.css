@@ -1,4 +1,5 @@
 .envelope-page {
+  align-items: center;
   background-color: #fff;
   border: 10px solid;
   border-image: repeating-linear-gradient(
@@ -14,34 +15,40 @@
   );
   border-image-slice: 10;
   display: grid;
+  font-family: 'Space Mono', monospace;
   grid-template-columns: max-content 1fr max-content;
-  grid-template-rows: max-content 1fr auto;
+  grid-template-rows: max-content 1fr max-content;
   height: 100vh;
+  justify-items: center;
+  padding: 2em;
 }
-.envelope-page_air-mail-sticker {
-  align-self: center;
+.envelope-page__air-mail-sticker {
   grid-column: 1/2;
   grid-row: 2;
-  justify-self: center;
 }
-.envelope-page_button {
+.envelope-page__open-letter {
   align-self: end;
+  background-color: #ce5756;
   grid-column: 3/4;
-  grid-row: 2;
-  justify-self: center;
+  grid-row: 3;
   margin: 2em;
+  text-decoration: none;
 }
-.envelope-page_receiver {
-  align-self: center;
+.envelope-page__open-letter:hover {
+  background-color: #5a799f;
+}
+.envelope-page__receiver {
+  font-size: 1.5rem;
   grid-column: 2/3;
   grid-row: 2;
-  justify-self: center;
 }
-.envelope-page_sender {
+.envelope-page__sender {
   grid-column: 1/2;
   grid-row: 1;
+  padding: 1em;
 }
-.envelope-page_stamp {
+.envelope-page__stamp {
+  align-self: start;
   grid-column: 3/4;
   grid-row: 1;
 }

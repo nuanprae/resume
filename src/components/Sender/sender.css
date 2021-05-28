@@ -1,4 +1,14 @@
 .sender {
+  display: flex;
+  flex-direction: column;
   line-height: 2;
+  gap: 0.5em;
   padding: 1em;
+}
+.sender__contact-icon:hover {
+  fill: #ce5756;
+}
+.sender__contact-icons {
+  display: flex;
+  gap: 1em;
 }
