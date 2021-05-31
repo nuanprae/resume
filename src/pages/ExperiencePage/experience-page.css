@@ -1,0 +1,26 @@
+.experience-page {
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  box-shadow: 5px 5px 5px #d3d3d3;
+  overflow-y: scroll;
+  padding: 2em;
+}
+.experience-page__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+.experience-page__list-item {
+  border-bottom: 1px dashed #7c7b7b;
+  padding: 1em;
+  text-align: center;
+}
+.experience-page__list-item-name {
+  font-family: 'Space Mono', monospace;
+}
+.experience-page__sub-list {
+  font-size: 0.9rem;
+  padding: 1em 2em;
+  text-align: justify;
+}

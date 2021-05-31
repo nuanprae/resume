@@ -8,6 +8,7 @@ import EnvelopePage from '../pages/EnvelopePage/EnvelopePage';
 import LetterPage from '../pages/LetterPage/LetterPage';
 import ProjectsPage from '../pages/ProjectsPage/ProjectsPage';
 import EducationPage from '../pages/EducationPage/EducationPage';
+import ExperiencePage from '../pages/ExperiencePage/ExperiencePage';
 
 export default function App() {
   return (
@@ -22,6 +23,9 @@ export default function App() {
           </Route>
           <Route path="/projects">
             <ProjectsPage className="app__page" />
+          </Route>
+          <Route path="/experience">
+            <ExperiencePage className="app__page" />
           </Route>
           <Route path="/education">
             <EducationPage className="app__page" />

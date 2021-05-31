@@ -16,6 +16,9 @@ export default function Navigation({ className }) {
       <Link to="/projects" className={`link ${pathname === '/projects' && 'active'}`}>
         Projects
       </Link>
+      <Link to="/experience" className={`link ${pathname === '/experience' && 'active'}`}>
+        Experience
+      </Link>
       <Link to="/education" className={`link ${pathname === '/education' && 'active'}`}>
         Education
       </Link>
