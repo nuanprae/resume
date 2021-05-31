@@ -1,0 +1,21 @@
+.app {
+  height: 100vh;
+}
+.app__main {
+  display: grid;
+  font-size: 0.9rem;
+  grid-template-columns: minmax(1em, 2em) minmax(25ch, 75ch) minmax(1em, 2em);
+  grid-template-rows: 2;
+  height: 100vh;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 1.5em;
+}
+.app__navigation {
+  grid-column: 2/3;
+  grid-row: 1;
+}
+.app__page {
+  grid-column: 2/3;
+  grid-row: 2;
+}

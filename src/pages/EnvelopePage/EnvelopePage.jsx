@@ -15,7 +15,7 @@ export default function EnvelopePage() {
       <Stamp className="envelope-page__stamp" />
       <AirMailSticker className="envelope-page__air-mail-sticker" />
       <Receiver className="envelope-page__receiver" />
-      <Link className="envelope-page__open-letter" to="/letter">
+      <Link className="envelope-page__open-letter" to="/cover-letter">
         <TextBlock name="Open" />
       </Link>
     </section>

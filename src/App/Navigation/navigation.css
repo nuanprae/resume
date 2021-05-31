@@ -1,0 +1,16 @@
+.active {
+  border-bottom: solid 3px #6b5c43;
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+.link:hover {
+  border-bottom: solid 3px #6b5c43;
+}
+.nav {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  padding-bottom: 1em;
+}

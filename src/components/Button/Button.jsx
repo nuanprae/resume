@@ -8,5 +8,6 @@ export default function Button({ className, name }) {
 }
 
 Button.propTypes = {
+  className: PropTypes.string,
   name: PropTypes.string,
 };

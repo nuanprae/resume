@@ -1,0 +1,13 @@
+.letter-page {
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  box-shadow: 5px 5px 5px #d3d3d3;
+  overflow-y: scroll;
+  padding: 2em;
+}
+.letter-page__header {
+  padding-bottom: 1em;
+}
+.letter-page__paragraph {
+  padding-bottom: 1em;
+}
