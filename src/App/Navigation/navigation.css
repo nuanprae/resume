@@ -13,8 +13,9 @@
 
   border-bottom: solid 3px #ce5756;
 }
-.nav {
+.navigation {
   display: flex;
+  flex-wrap: wrap;
   font-family: 'Space Mono', monospace;
   gap: 1em;
   justify-content: center;

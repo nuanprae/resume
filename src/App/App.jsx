@@ -7,6 +7,7 @@ import './app.css';
 import EnvelopePage from '../pages/EnvelopePage/EnvelopePage';
 import LetterPage from '../pages/LetterPage/LetterPage';
 import ProjectsPage from '../pages/ProjectsPage/ProjectsPage';
+import EducationPage from '../pages/EducationPage/EducationPage';
 
 export default function App() {
   return (
@@ -21,6 +22,9 @@ export default function App() {
           </Route>
           <Route path="/projects">
             <ProjectsPage className="app__page" />
+          </Route>
+          <Route path="/education">
+            <EducationPage className="app__page" />
           </Route>
         </main>
       </Router>
