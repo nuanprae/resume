@@ -1,15 +1,21 @@
 .active {
-  border-bottom: solid 3px #6b5c43;
+  border-bottom: solid 3px #ce5756;
 }
 .link {
+  background-color: #fff;
   color: inherit;
   text-decoration: none;
+  padding: 1em;
 }
 .link:hover {
-  border-bottom: solid 3px #6b5c43;
+  background-color: #ce5756;
+  color: #fff;
+
+  border-bottom: solid 3px #ce5756;
 }
 .nav {
   display: flex;
+  font-family: Space Mono, monospace;
   gap: 1em;
   justify-content: center;
   padding-bottom: 1em;
