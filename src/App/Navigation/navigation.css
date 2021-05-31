@@ -15,7 +15,7 @@
 }
 .nav {
   display: flex;
-  font-family: Space Mono, monospace;
+  font-family: 'Space Mono', monospace;
   gap: 1em;
   justify-content: center;
   padding-bottom: 1em;

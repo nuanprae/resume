@@ -1,14 +1,25 @@
+b {
+  color: #ce5756;
+}
 .letter-page {
   background-color: #fff;
   border: 1px solid #d3d3d3;
   box-shadow: 5px 5px 5px #d3d3d3;
-
   overflow-y: scroll;
   padding: 2em;
 }
 .letter-page__header {
+  font-family: 'Space Mono', monospace;
   padding-bottom: 1em;
 }
-.letter-page__paragraph {
+.letter-page__header-greeting {
+  color: #5a799f;
   padding-bottom: 1em;
+}
+
+.letter-page__paragraph {
+  padding-bottom: 1.5em;
+}
+.letter-page__strike {
+  text-decoration: line-through;
 }

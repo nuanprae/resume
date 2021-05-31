@@ -3,7 +3,6 @@
 }
 .app__main {
   display: grid;
-  font-size: 0.9rem;
   grid-template-columns: 1fr minmax(25ch, 75ch) 1fr;
   grid-template-rows: max-content 1fr;
   height: 100vh;
