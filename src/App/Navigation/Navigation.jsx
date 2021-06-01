@@ -10,7 +10,7 @@ export default function Navigation({ className }) {
 
   return (
     <nav className={classNamesHelper('navigation', className)}>
-      <Link to="/cover-letter" className={`link ${pathname === '/cover-letter' && 'active'}`}>
+      <Link to="/letter" className={`link ${pathname === '/letter' && 'active'}`}>
         Letter
       </Link>
       <Link to="/projects" className={`link ${pathname === '/projects' && 'active'}`}>

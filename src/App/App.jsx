@@ -1,4 +1,5 @@
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { Fragment } from 'react';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Navigation from './Navigation/Navigation';
 
@@ -14,23 +15,27 @@ export default function App() {
   return (
     <section className="app">
       <Router>
-        <Route exact path="/" component={EnvelopePage}></Route>
-        <Route path="/contact" component={EnvelopePage}></Route>
-        <main className="app__main">
-          <Navigation className="app__navigation" />
-          <Route path="/cover-letter">
-            <LetterPage className="app__page" />
-          </Route>
-          <Route path="/projects">
-            <ProjectsPage className="app__page" />
-          </Route>
-          <Route path="/experience">
-            <ExperiencePage className="app__page" />
-          </Route>
-          <Route path="/education">
-            <EducationPage className="app__page" />
-          </Route>
-        </main>
+        <Switch>
+          <Route exact path="/" component={EnvelopePage}></Route>
+          <Route path="/contact" component={EnvelopePage}></Route>
+          <Fragment>
+            <main className="app__main">
+              <Navigation className="app__navigation" />
+              <Route path="/letter">
+                <LetterPage className="app__page" />
+              </Route>
+              <Route path="/projects">
+                <ProjectsPage className="app__page" />
+              </Route>
+              <Route path="/experience">
+                <ExperiencePage className="app__page" />
+              </Route>
+              <Route path="/education">
+                <EducationPage className="app__page" />
+              </Route>
+            </main>
+          </Fragment>
+        </Switch>
       </Router>
     </section>
   );
