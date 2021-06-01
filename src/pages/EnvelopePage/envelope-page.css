@@ -56,11 +56,11 @@
 /* mobile */
 @media only screen and (max-width: 813px) {
   .envelope-page {
-    grid-template-columns: minmax(max-content, 1fr) minmax(50px, 100px);
+    grid-template-columns: minmax(max-content, 1fr) minmax(100px, 125px);
     padding: 0.5em;
   }
   .envelope-page__sender {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     grid-column: 1/2;
     grid-row: 1;
     justify-self: left;

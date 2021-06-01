@@ -10,117 +10,63 @@
   padding: 0 1rem;
   text-align: center;
 }
-/* start of bear css image */
-.bear {
+.heart-container {
+  align-items: center;
   align-self: center;
+  display: flex;
+  height: 75px;
+  justify-content: center;
+  width: 75px;
   position: relative;
+}
+.square {
+  background-color: red;
   display: block;
-  width: 100px;
-  height: 100px;
-}
-.head {
-  position: absolute;
-  background: #ce5756;
   height: 50%;
-  width: 60%;
-  top: 25%;
-  left: 20%;
-  border-radius: 50% 50% 40% 40%;
-  z-index: 1;
-}
-.head-copy {
-  position: absolute;
-  background: #ce5756;
-  height: 100%;
-  width: 100%;
-  border-radius: 50% 50% 40% 40%;
-  z-index: 2;
-}
-.ear-left {
-  position: absolute;
-  background: #ce5756;
-  height: 40%;
-  width: 35%;
-  border-radius: 50%;
-  top: -10%;
-  left: -10%;
-}
-.ear-right {
-  position: absolute;
-  background: #ce5756;
-  height: 40%;
-  width: 35%;
-  border-radius: 50%;
-  top: -10%;
-  right: -10%;
-  z-index: 1;
-}
-.inner-ear {
-  position: absolute;
-  background: #ffcb00;
-  height: 60%;
-  width: 60%;
-  top: 30%;
-  left: 20%;
-  border-radius: 50%;
-}
-.eye-left {
-  position: absolute;
-  height: 10%;
-  width: 20%;
-  top: 55%;
-  left: 20%;
-  border-radius: 50%;
-  border: 1px solid transparent;
-  border-bottom: 1px solid #000;
-  z-index: 3;
-}
-.eye-right {
-  position: absolute;
-  height: 10%;
-  width: 20%;
-  top: 55%;
-  right: 20%;
-  border-radius: 50%;
-  border: 1px solid transparent;
-  border-bottom: 1px solid #000;
-  z-index: 3;
-}
-.snout {
-  position: absolute;
-  background: white;
-  height: 25%;
-  width: 30%;
-  top: 65%;
-  left: 35%;
-  border-radius: 50% 50% 40% 40%;
-  z-index: 3;
-}
-.nose {
-  position: absolute;
-  background: black;
-  height: 30%;
-  width: 20%;
-  top: 10%;
-  left: 40%;
-  border-radius: 50%;
-  z-index: 3;
-}
-.nose-line {
-  position: absolute;
-  background: black;
-  height: 50%;
-  width: 10%;
-  top: 15%;
-  left: 45%;
-}
-.mouth {
-  position: absolute;
-  background: black;
-  height: 10%;
+  position: relative;
+  transform: rotate(-45deg);
   width: 50%;
-  top: 55%;
-  left: 25%;
-  border-radius: 0% 0% 50% 50%;
 }
-/* end of bear css image */
+.circle-left {
+  background-color: red;
+  border-radius: 50%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: -50%;
+  width: 100%;
+}
+.circle-right {
+  background-color: red;
+  border-radius: 50%;
+  height: 100%;
+  position: absolute;
+  right: -50%;
+  top: 0;
+  width: 100%;
+}
+.arm-left {
+  background-color: red;
+  height: 20%;
+  width: 50%;
+  left: -15%;
+  position: absolute;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transform: rotate(-20deg);
+}
+.arm-right {
+  background-color: red;
+  height: 20%;
+  width: 50%;
+  right: -15%;
+  position: absolute;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transform: rotate(20deg);
+}
+@media only screen and (max-width: 813px) {
+  .stamp__text {
+    font-size: 0.8rem;
+  }
+}
