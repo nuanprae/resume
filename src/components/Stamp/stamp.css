@@ -20,7 +20,7 @@
   position: relative;
 }
 .square {
-  background-color: red;
+  background-color: #ce5756;
   display: block;
   height: 50%;
   position: relative;
@@ -28,7 +28,7 @@
   width: 50%;
 }
 .circle-left {
-  background-color: red;
+  background-color: #ce5756;
   border-radius: 50%;
   height: 100%;
   left: 0;
@@ -37,7 +37,7 @@
   width: 100%;
 }
 .circle-right {
-  background-color: red;
+  background-color: #ce5756;
   border-radius: 50%;
   height: 100%;
   position: absolute;
@@ -46,7 +46,7 @@
   width: 100%;
 }
 .arm-left {
-  background-color: red;
+  background-color: #ce5756;
   height: 20%;
   width: 50%;
   left: -15%;
@@ -56,7 +56,7 @@
   transform: rotate(-20deg);
 }
 .arm-right {
-  background-color: red;
+  background-color: #ce5756;
   height: 20%;
   width: 50%;
   right: -15%;
