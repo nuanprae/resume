@@ -52,3 +52,37 @@
   grid-column: 3/4;
   grid-row: 1;
 }
+
+/* mobile */
+@media only screen and (max-width: 813px) {
+  .envelope-page {
+    grid-template-columns: minmax(max-content, 1fr) minmax(50px, 100px);
+    padding: 0.5em;
+  }
+  .envelope-page__sender {
+    font-size: 0.9rem;
+    grid-column: 1/2;
+    grid-row: 1;
+    justify-self: left;
+  }
+  .envelope-page__stamp {
+    grid-column: 2/3;
+    grid-row: 1;
+  }
+  .envelope-page__receiver {
+    grid-column: 1/3;
+    grid-row: 2;
+    padding-left: 0;
+    justify-self: center;
+    align-self: center;
+  }
+  .envelope-page__air-mail-sticker {
+    visibility: hidden;
+  }
+  .envelope-page__open-letter {
+    grid-column: 2/3;
+    grid-row: 3;
+    justify-self: center;
+    align-self: center;
+  }
+}
