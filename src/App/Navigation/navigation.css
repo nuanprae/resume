@@ -10,8 +10,6 @@
 .link:hover {
   background-color: #ce5756;
   color: #fff;
-
-  border-bottom: solid 3px #ce5756;
 }
 .navigation {
   display: flex;
@@ -19,5 +17,10 @@
   font-family: 'Space Mono', monospace;
   gap: 1em;
   justify-content: center;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
+}
+@media only screen and (max-width: 813px) {
+  .link {
+    padding: 0.5em;
+  }
 }

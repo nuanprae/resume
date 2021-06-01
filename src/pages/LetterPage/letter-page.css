@@ -23,3 +23,6 @@ b {
 .letter-page__strike {
   text-decoration: line-through;
 }
+.letter-page__external-link {
+  color: inherit;
+}
