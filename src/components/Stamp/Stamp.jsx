@@ -6,15 +6,25 @@ export default function Stamp({ className }) {
   return (
     <section className={classNamesHelper('stamp', className)}>
       <h4 className="stamp__text">Sverige Brev</h4>
-      <section className="heart-container" alt="heart">
-        <div className="square">
-          <div className="circle-left"></div>
-          <div className="circle-right"></div>
+      <section class="bear" alt="sleeping bear">
+        <div class="head">
+          <div class="head-copy"></div>
+          <div class="ear-left">
+            <div class="inner-ear"></div>
+          </div>
+          <div class="ear-right">
+            <div class="inner-ear"></div>
+          </div>
+          <div class="eye-left"></div>
+          <div class="eye-right"></div>
+          <div class="snout">
+            <div class="nose"></div>
+            <div class="nose-line"></div>
+            <div class="mouth"></div>
+          </div>
         </div>
-        <div className="arm-left"></div>
-        <div className="arm-right"></div>
       </section>
-      <h4 className="stamp__text">css famnig hjärta</h4>
+      <h4 className="stamp__text">css bear</h4>
     </section>
   );
 }
